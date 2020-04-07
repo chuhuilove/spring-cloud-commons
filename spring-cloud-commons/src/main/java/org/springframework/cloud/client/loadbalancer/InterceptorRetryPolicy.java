@@ -21,8 +21,9 @@ import org.springframework.retry.RetryContext;
 import org.springframework.retry.RetryPolicy;
 
 /**
- * {@link RetryPolicy} used by the {@link LoadBalancerClient} when retrying failed
- * requests.
+ * {@link LoadBalancerClient}在重试失败的请求时使用的{@link RetryPolicy}.
+ * <p>
+ * //TODO 2020年4月7日9:06:38 没整明白这个类到底干啥的...继续看openfeign
  *
  * @author Ryan Baxter
  */

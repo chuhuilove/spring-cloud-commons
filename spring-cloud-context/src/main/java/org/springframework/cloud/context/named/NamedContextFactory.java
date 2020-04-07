@@ -37,9 +37,11 @@ import org.springframework.core.env.MapPropertySource;
 
 /**
  * Creates a set of child contexts that allows a set of Specifications to define the beans
- * in each child context.
- *
- * Ported from spring-cloud-netflix FeignClientFactory and SpringClientFactory
+ * in each child context. Ported from spring-cloud-netflix FeignClientFactory and
+ * SpringClientFactory
+ * <p>
+ * 创建一组子上下文，允许一组规范在每个子上下文中定义bean. 从spring-cloud-netflix
+ * FeignClientFactory和SpringClientFactory移植.
  *
  * @param <C> specification
  * @author Spencer Gibb
